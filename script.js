@@ -18,7 +18,7 @@ function displayTime() {
     setInterval(displayTime, 1000);
     displayTime();
 
-// ****** SAVE *****
+// save time blocker
     $(".time-block").each(function() {
     var id = $(this).attr("id");
     var event = localStorage.getItem(id);
