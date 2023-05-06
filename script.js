@@ -28,7 +28,7 @@ function displayTime() {
     }
 });
 
-// ***** SAVE *****
+// save button
     $(".saveBtn").on("click", function() {
     var eventId = $(this).parent().attr("id");
     var eventText = $(this).siblings(".description").val();
