@@ -5,7 +5,7 @@ var saveBtns = $('.saveBtn');
 
 $(function() {
 
-// Display the current day on the header
+// added the current day on the header
     const now = moment();
     const currentDateTime = now.format("YYYY-MM-DD HH:mm:ss");
 
