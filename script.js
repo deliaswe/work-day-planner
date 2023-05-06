@@ -36,7 +36,7 @@ function displayTime() {
     localStorage.setItem(eventId, eventText);
 });
 
-// **** CHANGE COLORS *****
+// change color
     function updateTimeBlocks() {
     var currentTime = dayjs().hour();
 
