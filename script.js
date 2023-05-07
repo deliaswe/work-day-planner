@@ -6,8 +6,8 @@ var saveBtns = $('.saveBtn');
 $(function() {
 
 // added the current day on the header
-    const now = moment();
-    const currentDateTime = now.format("YYYY-MM-DD HH:mm:ss");
+    //const now = moment();
+    //const currentDateTime = now.format("YYYY-MM-DD HH:mm:ss");
 
 
 
@@ -60,4 +60,10 @@ function displayTime() {
 
 // Update every second
     setInterval(updateTimeBlocks, 1000);
+});
+
+$("#clear-btn").on("click", function () {
+    $(".time-block").each(function () {
+    $(this).children(".description").val("");
+    });
 });
