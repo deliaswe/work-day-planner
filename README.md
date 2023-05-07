@@ -10,11 +10,11 @@
 
 - I added a clear scheduler button for new daily activities.
 ## Installation
-http
+https://deliaswe.github.io/work-day-planner/
 
 ## Usage
 
-![screen shot](./assets/images/screencapture-deliaswe-github-io-portfolio-project-2023-04-14-22_23_01.png)
+![screencapture-deliaswe-github-io-work-day-planner-2023-05-06-22_06_28](https://user-images.githubusercontent.com/113808453/236654138-8673b3e9-df30-43c1-82db-f1c10211a8f2.png)
 
 ## Credits
 N/A
