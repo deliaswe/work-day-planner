@@ -62,6 +62,7 @@ function displayTime() {
     setInterval(updateTimeBlocks, 1000);
 });
 
+// clear scheduler button
 $("#clear-btn").on("click", function () {
     $(".time-block").each(function () {
     $(this).children(".description").val("");
